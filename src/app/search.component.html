@@ -1,0 +1,16 @@
+
+            
+<div class="container" id="searchmenu">
+    <div class="form-inline">   
+        <input name="search" #searchTerm id="searchbar"placeholder=" search channel ...">
+        <button (click)="performSearch(searchTerm)" class="btn btn-primary">Search</button> <br>
+    </div>
+    <ul *ngFor="let n of article">
+        <a href={{n.url}} target="_blank">
+        <li class="col-2 pull-right"><img src={{n.urlToImage}} alt = "NewsImage"></li>     
+        <li class="col-10"><p><strong>{{n.title}}</strong></p>
+            <p>{{n.description}}</p>
+        </li>
+    </a>
+    </ul>
+</div>

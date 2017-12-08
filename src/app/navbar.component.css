@@ -1,0 +1,15 @@
+header{
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+img{
+    margin: 10px;
+}
+#login{
+    margin: 10px;
+}
+nav.navbar.navbar-default{
+    margin: 10px 0;
+    border:none;
+}
